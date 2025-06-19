@@ -1,0 +1,130 @@
+    html, body{
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+      margin: 0;
+     display: flex;
+     flex-direction: column;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+    }
+main {
+    flex: 1;
+}
+
+header {
+      background-color: #1c1c1c;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+header h1 {
+      margin: 0;
+      font-size: 2.2em;
+    }
+
+.item3portifolio {
+    background-color: #fff;
+    padding: 2rem;
+    margin: 2rem auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+
+nav {
+      background-color: #333;
+      padding: 15px;
+      text-align: center;
+    }
+
+nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+    }
+
+.textonome {
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.meunome {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.explicacao {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #444;
+    text-align: justify;
+}
+
+.contato1 {
+    flex: 1 1 300px;
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.contato1 h1 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.dadoscontato {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+ion-icon {
+    color: #0051ff;
+    font-size: 1.5rem;
+    vertical-align: middle;
+    margin-left: 0.5rem;
+}
+
+.imagemportifolio {
+    max-width: 300px;
+    border-radius: 100%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #007bff;
+}
+
+nav a.menu:hover{
+    color: white;
+}
+
+footer {
+  background-color: #1c1c1c;
+  color: #aaa;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: auto;
+}

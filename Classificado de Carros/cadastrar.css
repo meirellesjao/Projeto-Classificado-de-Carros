@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+.pagina {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #1c1c1c;
+  padding: 20px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #fff;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+nav {
+      background-color: #333;
+      padding: 15px;
+      text-align: center;
+      border-radius: 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+}
+
+.nav a:hover {
+  color: #00aaff;
+}
+
+.cadastro-container {
+  max-width: 100%;
+  margin: 40px auto;
+  background-color: #ffffff;
+  padding: 120px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+.cadastro-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: #1e1e2f;
+}
+
+.form-anuncio {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px 40px;
+  width: 100%;
+}
+
+.form-anuncio label {
+  grid-column: 1 / -1;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.form-anuncio input,
+.form-anuncio select,
+.form-anuncio textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  background-color: #fdfdfd;
+  transition: border 0.3s ease;
+}
+
+.form-anuncio textarea {
+  grid-column: 1 / -1;
+}
+
+.form-anuncio button {
+  grid-column: 1 / -1;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 16px;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-anuncio button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  background-color: #1c1c1c;
+  color: #aaa;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: auto;
+}
+
+

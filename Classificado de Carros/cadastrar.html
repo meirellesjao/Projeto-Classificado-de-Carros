@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cadastrar Anúncio</title>
+ <link rel="stylesheet" href="cadastrar.css">
+</head>
+<body>
+  
+  <div class="pagina">
+    <header class="header">
+      <div class="container">
+        <h1 class="logo">AutoFácil</h1>
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="anuncios.html">Ver Anúncios</a>
+    <a href="cadastrar.html">Cadastrar Anúncio</a>
+    <a href="portfolio.html">Portfólio</a>
+  </nav>
+      </div>
+    </header>
+
+    <main class="cadastro-container">
+      <h2>Cadastre seu Anúncio</h2>
+      <form class="form-anuncio">
+        <label for="modelo">Modelo do Carro:</label>
+        <input type="text" id="modelo" name="modelo" required>
+
+        <label for="ano">Ano:</label>
+        <input type="number" id="ano" name="ano" required>
+
+        <label for="preco">Preço (R$):</label>
+        <input type="number" id="preco" name="preco" step="0.01" required>
+
+        <label for="quilometragem">Quilometragem:</label>
+        <input type="number" id="quilometragem" name="quilometragem" required>
+
+        <label for="combustivel">Combustível:</label>
+        <select id="combustivel" name="combustivel" required>
+          <option value="">Selecione</option>
+          <option value="Gasolina">Gasolina</option>
+          <option value="Álcool">Álcool</option>
+          <option value="Flex">Flex</option>
+          <option value="Diesel">Diesel</option>
+          <option value="Elétrico">Elétrico</option>
+        </select>
+
+        <label for="cambio">Câmbio:</label>
+        <select id="cambio" name="cambio" required>
+          <option value="">Selecione</option>
+          <option value="Manual">Manual</option>
+          <option value="Automático">Automático</option>
+        </select>
+
+        <label for="cor">Cor:</label>
+        <input type="text" id="cor" name="cor" required>
+
+        <label for="descricao">Descrição:</label>
+        <textarea id="descricao" name="descricao" rows="4" required></textarea>
+
+        <label for="imagem">Anexar Imagem do Carro:</label>
+        <input type="file" id="imagem" name="imagem" accept="image/*" required>
+
+        <button type="submit">Cadastrar Anúncio</button>
+      </form>
+    </main>
+
+    
+    <footer>
+      <p>&copy; 2025 AutoFácil. Todos os direitos reservados  l Desenvolvido por João Vitor Meirelles.</p>
+    </footer>
+  </div>
+</body>
+</html>
